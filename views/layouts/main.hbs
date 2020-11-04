@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/stylesheets/uikit.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo" href="#">Tempest Web Archive</a>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-navbar-item uk-active uk-display-inline"><a href="/colosseum"><img src="/images/sword.svg" alt="sword icon" class="uk-float-" width="32" height="32" uk-svg="stroke-animation: true"> The Colosseum Archive</a></li>
+                    <li class="uk-navbar-item uk-active uk-display-inline"><a href=""><img src="/images/dragon.svg" alt="sword icon" class="uk-float-" width="32" height="32" uk-svg="stroke-animation: true"> Event Schedule</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="uk-section uk-section-primary">
+            <div class="uk-container">
+                {{{body}}}
+            </div>
+        </div>
+    </main>
+
+    <!-- Script -->
+    <script src="/javascripts/uikit.min.js"></script>
+    <script src="/javascripts/uikit-icons.min.js"></script>
+</body>
+</html>

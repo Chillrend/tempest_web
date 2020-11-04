@@ -1,0 +1,13 @@
+<svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"
+          d="M44,32l1-21.4c0-0.4-0.1-0.8-0.3-1.1L41,3l-3.7,6.6c-0.2,0.3-0.3,0.7-0.3,1.1L38,32"/>
+    <path fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2"
+          d="M35 33.7V35c0 .6.4 1 1 1h10c.6 0 1-.4 1-1v-1.3c0-.4-.3-.8-.7-.9L41 30.9l-5.3 1.8C35.3 32.9 35 33.3 35 33.7zM17 47c0 0-14-8-14-16V7c8.6-2 14-4 14-4s5.4 2 14 4v24C31 39 17 47 17 47z"/>
+    <path fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2"
+          d="M17,42c0,0-10-5.8-10-12V10c5.6-1,10-3,10-3s4.4,2,10,3v20C27,36.2,17,42,17,42z"/>
+    <path fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"
+          d="M7 16L27 28M7 21L27 33M7 11L27 23"/>
+    <path fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2" d="M43 42L43 36 39 36 39 41.9"/>
+    <path fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2"
+          d="M41 41A3 3 0 1 0 41 47A3 3 0 1 0 41 41Z" transform="matrix(.02397 -.9997 .9997 .02397 -3.914 83.934)"/>
+</svg>

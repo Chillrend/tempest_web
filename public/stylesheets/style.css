@@ -1,0 +1,70 @@
+* {
+    background: #314448 !important;
+    font-family: "JetBrains Mono", "Fira Code", consolas, monospace !important;
+    color: #fff !important;
+}
+
+div{
+}
+
+body {
+    margin: auto 1.5rem;
+}
+
+.uk-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.uk-navbar-nav>li>a, .uk-navbar-toggle {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.uk-navbar-item a svg {
+    margin-right: 1rem;
+}
+
+.hero-img{
+    height: 450px;
+}
+
+.uk-search-default .uk-search-input{
+    border: 0 !important;
+    font-size: 24pt;
+}
+
+.uk-search-default{
+    padding: 1.2rem;
+    width: 500px;
+}
+
+.uk-card-body{
+    padding: 15px 15px !important;
+}
+
+.uk-card-default{
+    border: 1px solid white;
+}
+
+.uk-card-win, .uk-card-win *{
+    background-color: #5ebc58 !important;
+}
+
+.uk-card-defeat, .uk-card-defeat *{
+    background-color: #e14214 !important;
+}
+
+.colo-card p{
+    margin: 0 auto;
+}
+
+.colo-card>p.colo-type{
+    font-size: 13pt;
+}
+
+.colo-card>h2{
+    margin-top: 20px;
+}
+
+

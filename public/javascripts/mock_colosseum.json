@@ -1,0 +1,316 @@
+{
+  "docs": [
+    {
+      "timestamp": 1600997841,
+      "type": "Gran Colosseum",
+      "rival": "Exelion",
+      "lifeforce": {
+        "outcome": "victory",
+        "us": 1500000,
+        "theirs": 450000
+      },
+      "combo": {
+        "us": 1450,
+        "theirs": 500
+      },
+      "shinma": [
+        {
+          "type": [
+            "staff",
+            "sword",
+            "polearm"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        },
+        {
+          "type": [
+            "instrument",
+            "heavy",
+            "projectile"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1600911441,
+      "type": "Gran Colosseum",
+      "rival": "未央Weiyang",
+      "lifeforce": {
+        "outcome": "defeat",
+        "us": 1500000,
+        "theirs": 450000
+      },
+      "combo": {
+        "us": 1450,
+        "theirs": 500
+      },
+      "shinma": [
+        {
+          "type": [
+            "staff",
+            "sword",
+            "polearm"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        },
+        {
+          "type": [
+            "instrument",
+            "heavy",
+            "projectile"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1600911441,
+      "type": "Gran Colosseum",
+      "rival": "未央Weiyang",
+      "lifeforce": {
+        "outcome": "defeat",
+        "us": 1500000,
+        "theirs": 450000
+      },
+      "combo": {
+        "us": 1450,
+        "theirs": 500
+      },
+      "shinma": [
+        {
+          "type": [
+            "staff",
+            "sword",
+            "polearm"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        },
+        {
+          "type": [
+            "instrument",
+            "heavy",
+            "projectile"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1600911441,
+      "type": "Colosseum",
+      "rival": "未央Weiyang",
+      "lifeforce": {
+        "outcome": "defeat",
+        "us": 1500000,
+        "theirs": 450000
+      },
+      "combo": {
+        "us": 1450,
+        "theirs": 500
+      },
+      "shinma": [
+        {
+          "type": [
+            "staff",
+            "sword",
+            "polearm"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        },
+        {
+          "type": [
+            "instrument",
+            "heavy",
+            "projectile"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1600911441,
+      "type": "Colosseum",
+      "rival": "未央Weiyang",
+      "lifeforce": {
+        "outcome": "victory",
+        "us": 1500000,
+        "theirs": 450000
+      },
+      "combo": {
+        "us": 1450,
+        "theirs": 500
+      },
+      "shinma": [
+        {
+          "type": [
+            "staff",
+            "sword",
+            "polearm"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        },
+        {
+          "type": [
+            "instrument",
+            "heavy",
+            "projectile"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1600911441,
+      "type": "Gran Colosseum",
+      "rival": "未央Weiyang",
+      "lifeforce": {
+        "outcome": "defeat",
+        "us": 1500000,
+        "theirs": 450000
+      },
+      "combo": {
+        "us": 1450,
+        "theirs": 500
+      },
+      "shinma": [
+        {
+          "type": [
+            "staff",
+            "sword",
+            "polearm"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        },
+        {
+          "type": [
+            "instrument",
+            "heavy",
+            "projectile"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1600911441,
+      "type": "Gran Colosseum",
+      "rival": "未央Weiyang",
+      "lifeforce": {
+        "outcome": "victory",
+        "us": 1500000,
+        "theirs": 450000
+      },
+      "combo": {
+        "us": 1450,
+        "theirs": 500
+      },
+      "shinma": [
+        {
+          "type": [
+            "staff",
+            "sword",
+            "polearm"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        },
+        {
+          "type": [
+            "instrument",
+            "heavy",
+            "projectile"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": 1600911441,
+      "type": "Gran Colosseum",
+      "rival": "未央Weiyang",
+      "lifeforce": {
+        "outcome": "victory",
+        "us": 1500000,
+        "theirs": 450000
+      },
+      "combo": {
+        "us": 1450,
+        "theirs": 500
+      },
+      "shinma": [
+        {
+          "type": [
+            "staff",
+            "sword",
+            "polearm"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        },
+        {
+          "type": [
+            "instrument",
+            "heavy",
+            "projectile"
+          ],
+          "result": {
+            "us": 75,
+            "theirs": 64
+          }
+        }
+      ]
+    }
+  ],
+  "totalDocs": 40,
+  "limit": 8,
+  "hasPrevPages": false,
+  "hasNextPages": true,
+  "page": 1,
+  "totalPages": 5,
+  "prevPage": 0,
+  "nextPage": 2
+}
