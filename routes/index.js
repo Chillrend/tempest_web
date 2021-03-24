@@ -9,7 +9,7 @@ router.get('/', (req, res, next) => {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/colosseum', async (req, res) => {
+router.get('/colosseum', async (req, res, next) => {
   await controller.colosseum_all(req,res);
 });
 

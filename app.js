@@ -6,7 +6,6 @@ const logger = require('morgan');
 const helmet = require('helmet');
 const exphbs = require('express-handlebars');
 const muchHelp = require('handlebars-helpers');
-const mongoose = require('mongoose');
 const helper = require('./util/frontend/helper');
 
 const indexRouter = require('./routes/index');
@@ -16,12 +15,7 @@ require('dotenv').config();
 
 const app = express();
 
-mongoose.connect(process.env.MONGO_URI, {
-  useUnifiedTopology: true,
-  useNewUrlParser: true,
-});
-
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 6969;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
