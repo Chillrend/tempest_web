@@ -56,5 +56,3 @@ data.forEach((d) => {
     }
   }
 });
-
-//             "webhookUrl": "https://discord.com/api/webhooks/824195898161758209/uszpgO6QepXdM7wsEAJhUWpplTzXMNz_NmutGq17AtlLyBy1IEi4LVqpwhRNxeendv3S"

@@ -23,7 +23,7 @@
             "eventDesc": "Woy ganti grid shinma",
             "bgUrl": "https://twinfinite.net/wp-content/uploads/2020/07/sinoalice.jpg",
             "tags": [728215332107452516],
-            "time": ["19:20"],
+            "time": ["19.20"],
             "recurring": true,
             "visible": true   
         },
@@ -44,7 +44,8 @@
             "time": ["20:00"],
             "recurring": true,
             "visible": true,
-            "misc": true
+            "misc": true,
+            "webhookUrl": "https://discord.com/api/webhooks/824195898161758209/uszpgO6QepXdM7wsEAJhUWpplTzXMNz_NmutGq17AtlLyBy1IEi4LVqpwhRNxeendv3S"
         }
 
     ]
