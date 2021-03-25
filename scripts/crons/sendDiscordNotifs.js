@@ -7,6 +7,7 @@ const timeNow = moment();
 require('dotenv').config();
 
 data.forEach((d) => {
+  if(!d.visible) break;
   for (let i = 0; i < d.time.length; i ++) {
     const time = moment(d.time[i], 'HH:mm');
     const difference = timeNow.diff(time, 'minutes');
