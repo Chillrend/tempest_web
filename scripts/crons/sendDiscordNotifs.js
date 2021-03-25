@@ -7,21 +7,25 @@ const timeNow = moment();
 require('dotenv').config();
 
 data.forEach((d) => {
-  let isTime = false;
-
   for (let i = 0; i < d.time.length; i ++) {
     const time = moment(d.time[i], 'HH:mm');
-    const duration = timeNow.diff(time, 'minutes');
+    const difference = timeNow.diff(time, 'minutes');
 
-    if (duration < 2) {
-      isTime = true;
-    }
-
-    if (isTime) {
+    if (difference < 2 && difference > -1) {
       // SEND HOOK
-
+      console.log(`Time now: ${timeNow}, Time Events: ${time}, Difference: ${difference}, Event Name: ${d.eventName} `)
+      let tagsType = d.tags;
+      let tags = '';
+      if(tagsType.constructor === Array){
+        for(let j = 0; j < d.tags.length; j++){
+            tags += ` <@&${d.tags[j]}> `
+          }
+      }else{
+          tags = d.tags
+      }
+      
       const embedObject = {
-        content: d.tags,
+        content: tags,
         embeds: [
           {
             title: d.eventName,
@@ -36,21 +40,21 @@ data.forEach((d) => {
             },
             timestamp: moment().toJSON(),
             image: {
-              url: d.bg_url,
+              url: d.bgUrl,
             },
           },
         ],
       };
 
-      console.log(JSON.stringify(embedObject));
-
       const url = d.webhookUrl !== undefined ? d.webhookUrl : process.env.DEFAULT_WEBHOOK_URL;
 
       axios.post(url, embedObject)
-        .then((r) => console.log(`Successfully sent events! ${JSON.stringify(r)}`))
+        .then((r) => console.log(`Successfully sent events! ${r.body}`))
         .catch((err) => console.log(`Error ! ${err}`));
 
       break;
     }
   }
 });
+
+//             "webhookUrl": "https://discord.com/api/webhooks/824195898161758209/uszpgO6QepXdM7wsEAJhUWpplTzXMNz_NmutGq17AtlLyBy1IEi4LVqpwhRNxeendv3S"
