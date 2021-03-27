@@ -1,3 +1,4 @@
+/* eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }] */
 const moment = require('moment');
 const axios = require('axios');
 const { data } = require('../../models/events.json');
@@ -7,27 +8,28 @@ const timeNow = moment();
 require('dotenv').config();
 
 data.forEach((d) => {
-  for (let i = 0; i < d.time.length; i ++) {
-    if(!d.visible) break;
-    
+  for (let i = 0; i < d.time.length; i++) {
+    if (!d.visible) break;
+
     const time = moment(d.time[i], 'HH:mm');
     const difference = timeNow.diff(time, 'minutes');
 
     if (difference < 2 && difference > -1) {
       // SEND HOOK
-      console.log(`Time now: ${timeNow}, Time Events: ${time}, Difference: ${difference}, Event Name: ${d.eventName} `)
-      let tagsType = d.tags;
-      let tags = '';
-      if(tagsType.constructor === Array){
-        for(let j = 0; j < d.tags.length; j++){
-            tags += ` <@&${d.tags[j]}> `
-          }
-      }else{
-          tags = d.tags
+      console.log(`Time now: ${timeNow}, Time Events: ${time}, Difference: ${difference}, Event Name: ${d.eventName} `);
+      let content = '';
+      if (d.tagExist && !d.tagExist !== undefined) {
+        content += content !== undefined ? content : '';
+        for (let j = 0; j < d.tags.length; j++) {
+          content += ` <@&${d.tags[j]}> `;
+          console.log(content);
+        }
+      } else {
+        content = d.content;
       }
-      
+
       const embedObject = {
-        content: tags,
+        content,
         embeds: [
           {
             title: d.eventName,
