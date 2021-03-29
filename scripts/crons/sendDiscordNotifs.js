@@ -22,7 +22,6 @@ data.forEach((d) => {
         content += content !== undefined ? content : '';
         for (let j = 0; j < d.tags.length; j++) {
           content += ` <@&${d.tags[j]}> `;
-          console.log(content);
         }
       } else {
         content = d.content;
