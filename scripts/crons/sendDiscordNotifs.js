@@ -5,7 +5,7 @@ const { data } = require('../../models/events.json');
 
 const timeNow = moment();
 
-require('dotenv').config();
+const DEFAULT_WEBHOOK_URL = 'https://discord.com/api/webhooks/739357743940370452/czfyoQ06AOsjmaD0hebUZnRQ6rBphmfG_Vs4ZPaRUnqNXtrLpnodRHoLaEidj2hteLCN';
 
 data.forEach((d) => {
   for (let i = 0; i < d.time.length; i++) {
@@ -49,7 +49,7 @@ data.forEach((d) => {
         ],
       };
 
-      const url = d.webhookUrl !== undefined ? d.webhookUrl : process.env.DEFAULT_WEBHOOK_URL;
+      const url = d.webhookUrl !== undefined ? d.webhookUrl : DEFAULT_WEBHOOK_URL;
 
       axios.post(url, embedObject)
         .then((r) => console.log(`Successfully sent events! ${r.body}`))
