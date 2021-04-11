@@ -26,7 +26,7 @@
             "bgUrl": "https://twinfinite.net/wp-content/uploads/2020/07/sinoalice.jpg",
             "tagExist": true,
             "tags": ["728215332107452516"],
-            "time": ["19.20"],
+            "time": ["20.20"],
             "recurring": true,
             "visible": true   
         },
@@ -36,7 +36,7 @@
             "bgUrl": "https://twinfinite.net/wp-content/uploads/2020/07/sinoalice.jpg",
             "tagExist": true,
             "tags": ["728215332107452516"],
-            "time": ["19:30","19:45","19:50","19:55","20:00"],
+            "time": ["20:45", "20:55","21:00"],
             "recurring": true,
             "visible": true   
         },
@@ -46,7 +46,7 @@
             "bgUrl": "https://webstatic-sea.mihoyo.com/upload/event/2021/03/15/e8d1d5dfae45239570f12b9b68a420d1_6553452468560402278.png",
             "tagExist": false,
             "content": "Daily gan",
-            "time": ["20:00"],
+            "time": ["09:00","20:00"],
             "recurring": true,
             "visible": true,
             "misc": true,
