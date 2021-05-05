@@ -12,7 +12,7 @@
         },
         {
             "eventName": "※ Nightmare Raid ※",
-            "eventDesc": "Some weird boss idk (Fenrir Re-Run)",
+            "eventDesc": "Some weird boss idk (if there is a raid....)",
             "bgUrl": "https://sinoalice.game-db.tw/images/banner_global/20210325_r01_tobatsu_kyuryo/BannerL206.png",
             "tagExist": true,
             "tags": ["739358021884313711"],
@@ -32,7 +32,7 @@
         },
         {
             "eventName": "※ Tempest Colosseum ※",
-            "eventDesc": "Bangun anjing @Aefredo",
+            "eventDesc": "@Otsu Poppinpils",
             "bgUrl": "https://twinfinite.net/wp-content/uploads/2020/07/sinoalice.jpg",
             "tagExist": true,
             "tags": ["728215332107452516"],
@@ -43,7 +43,7 @@
         {
             "eventName": "※ Hoyolab Daily Check In ※",
             "eventDesc": "Akhirnya Draa dibebas tugaskan \n https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us",
-            "bgUrl": "https://webstatic-sea.mihoyo.com/upload/event/2021/03/15/e8d1d5dfae45239570f12b9b68a420d1_6553452468560402278.png",
+            "bgUrl": "https://webstatic-sea.mihoyo.com/upload/event/2021/04/28/226336bdeb81a97beb49f2c54d4f5263_1214814421503033492.png",
             "tagExist": false,
             "content": "Daily gan",
             "time": ["09:00","20:00"],
