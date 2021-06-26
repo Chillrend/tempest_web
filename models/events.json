@@ -41,9 +41,9 @@
             "visible": true   
         },
         {
-            "eventName": "※ Hoyolab Daily Check In ※",
-            "eventDesc": "Akhirnya Draa dibebas tugaskan \n https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us",
-            "bgUrl": "https://webstatic-sea.mihoyo.com/upload/event/2021/04/28/226336bdeb81a97beb49f2c54d4f5263_1214814421503033492.png",
+            "eventName": "※ Hoyolab Daily Check In & Web Event ※",
+            "eventDesc": "Akhirnya Draa dibebas tugaskan \n https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?act_id=e202102251931481&lang=en-us \n https://webstatic-sea.mihoyo.com/ys/event/e20210624-boat/index.html?utm_source=officialweb&utm_medium=news",
+            "bgUrl": "https://webstatic-sea.mihoyo.com/upload/event/2021/06/07/298f1398ea70d8a0315495f5a52e608e_9009250168636492012.png",
             "tagExist": false,
             "content": "Daily gan",
             "time": ["09:00","20:00"],
